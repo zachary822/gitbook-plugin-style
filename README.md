@@ -11,7 +11,9 @@ filter syntax.
 
 ### Output
 
+```html
 <span style="color:red">example text</span>
+```
 
 # API
 
