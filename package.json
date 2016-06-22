@@ -1,0 +1,12 @@
+{
+  "name": "gitbook-plugin-color",
+  "version": "1.0.0",
+  "description": "Add color to your texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["gitbook", "gitbook-plugin", "color"],
+  "author": "Zachary Juang",
+  "license": "MIT"
+}
