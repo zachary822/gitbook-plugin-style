@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["gitbook", "gitbook-plugin", "color"],
+  "keywords": ["gitbook", "gitbook-plugin", "style"],
   "author": "Zachary Juang",
   "license": "MIT",
   "repository": {
@@ -14,6 +14,6 @@
     "url": "https://github.com/zachary822/gitbook-plugin-style.git"
   },
   "engines": {
-    "gitbook": "*"
+    "gitbook": ">=3.0.0"
   }
 }

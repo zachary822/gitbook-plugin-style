@@ -4,8 +4,17 @@
 "use strict";
 module.exports = {
   filters: {
-    style: function (text, style) {
-      return `<span style="${style}">${text}</span>`;
+    style: function (text, style, kwargs) {
+      var attributes = "";
+      if (kwargs) {
+        if ('id' in kwargs) {
+          attributes += `id="${kwargs.id}" `;
+        }
+        if ('class' in kwargs) {
+          attributes += `class="${kwargs["class"]}"`;
+        }
+      }
+      return '<span style="' + style +'" ' + attributes + '>' + text + '</span>';
     }
   }
 };
