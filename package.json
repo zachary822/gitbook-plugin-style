@@ -1,7 +1,7 @@
 {
   "name": "gitbook-plugin-style",
   "version": "1.0.1",
-  "description": "Add color to your texts",
+  "description": "Add style to your texts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
