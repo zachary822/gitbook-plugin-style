@@ -1,6 +1,6 @@
 {
   "name": "gitbook-plugin-style",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Add style to your texts",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,6 @@
     "url": "https://github.com/zachary822/gitbook-plugin-style.git"
   },
   "engines": {
-    "gitbook": ">=3.0.0"
+    "gitbook": "*"
   }
 }
