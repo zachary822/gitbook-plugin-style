@@ -1,6 +1,6 @@
 {
-  "name": "gitbook-plugin-color",
-  "version": "1.0.0",
+  "name": "gitbook-plugin-style",
+  "version": "1.0.1",
   "description": "Add color to your texts",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,12 @@
   },
   "keywords": ["gitbook", "gitbook-plugin", "color"],
   "author": "Zachary Juang",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zachary822/gitbook-plugin-style.git"
+  },
+  "engines": {
+    "gitbook": "*"
+  }
 }
