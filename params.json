@@ -1,0 +1,6 @@
+{
+  "name": "gitbook-plugin-style",
+  "tagline": "Add some variety to your text.",
+  "body": "# gitbook-plugin-style\r\n\r\nConveniently add inline styles with [nunjucks](https://mozilla.github.io/nunjucks/templating.html#filters)\r\nfilter syntax.\r\n\r\n## Example\r\n\r\n```\r\n{{ \"example text\" | style(\"color:red\") }}\r\n```\r\n\r\n### Output\r\n\r\n```html\r\n<span style=\"color:red\">example text</span>\r\n```\r\n\r\n# API\r\n\r\n## style(styleString, *id=undefined*, *class=undefined*)\r\n\r\n### Positional Arguments\r\n\r\n#### styleString\r\n\r\nType: `string`\r\n\r\nHTML inline style string\r\n\r\n### Named Arguments\r\n\r\n#### id\r\n\r\nType: `string`\r\n\r\nAdditional id attribute.\r\n\r\n#### class\r\n\r\nType: `string`\r\n\r\nAdditional class attribute.\r\n\r\n# License\r\n\r\n[MIT license](https://github.com/zachary822/gitbook-plugin-style/blob/master/LICENSE)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>gitbook-plugin-style by zachary822</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>gitbook-plugin-style</h1>
+        <p>Add some variety to your text.</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/zachary822/gitbook-plugin-style" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/zachary822/gitbook-plugin-style/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/zachary822/gitbook-plugin-style/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a id="gitbook-plugin-style" class="anchor" href="#gitbook-plugin-style" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>gitbook-plugin-style</h1>
+
+<p>Conveniently add inline styles with <a href="https://mozilla.github.io/nunjucks/templating.html#filters">nunjucks</a>
+filter syntax.</p>
+
+<h2>
+<a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h2>
+
+<pre><code>{{ "example text" | style("color:red") }}
+</code></pre>
+
+<h3>
+<a id="output" class="anchor" href="#output" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Output</h3>
+
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">span</span> <span class="pl-e">style</span>=<span class="pl-s"><span class="pl-pds">"</span>color:red<span class="pl-pds">"</span></span>&gt;example text&lt;/<span class="pl-ent">span</span>&gt;</pre></div>
+
+<h1>
+<a id="api" class="anchor" href="#api" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API</h1>
+
+<h2>
+<a id="stylestylestring-idundefined-classundefined" class="anchor" href="#stylestylestring-idundefined-classundefined" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>style(styleString, <em>id=undefined</em>, <em>class=undefined</em>)</h2>
+
+<h3>
+<a id="positional-arguments" class="anchor" href="#positional-arguments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Positional Arguments</h3>
+
+<h4>
+<a id="stylestring" class="anchor" href="#stylestring" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>styleString</h4>
+
+<p>Type: <code>string</code></p>
+
+<p>HTML inline style string</p>
+
+<h3>
+<a id="named-arguments" class="anchor" href="#named-arguments" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Named Arguments</h3>
+
+<h4>
+<a id="id" class="anchor" href="#id" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>id</h4>
+
+<p>Type: <code>string</code></p>
+
+<p>Additional id attribute.</p>
+
+<h4>
+<a id="class" class="anchor" href="#class" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>class</h4>
+
+<p>Type: <code>string</code></p>
+
+<p>Additional class attribute.</p>
+
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h1>
+
+<p><a href="https://github.com/zachary822/gitbook-plugin-style/blob/master/LICENSE">MIT license</a></p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/zachary822">zachary822</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
